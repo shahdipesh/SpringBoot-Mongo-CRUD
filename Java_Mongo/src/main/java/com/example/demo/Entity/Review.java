@@ -22,6 +22,7 @@ public class Review {
     private String title;
     private String src;
     private String body;
+    private String[] likes;
 
     public String getId() {
         return id;
@@ -69,5 +70,13 @@ public class Review {
 
     public void setBody(String body) {
         this.body = body;
+    }
+
+    public String[] getLikes() {
+        return likes;
+    }
+
+    public void setLikes(String[] likes) {
+        this.likes = likes;
     }
 }
